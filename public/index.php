@@ -51,7 +51,7 @@ require COREPATH.'classes'.DIRECTORY_SEPARATOR.'autoloader.php';
 class_alias('Fuel\\Core\\Autoloader', 'Autoloader');
 
 // Exception route processing closure
-$routerequest = function($route = null, $e = false)
+$routerequest = function($route = null, $e = false) 
 {
 	Request::reset_request(true);
 
